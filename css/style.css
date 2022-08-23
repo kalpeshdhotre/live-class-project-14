@@ -31,10 +31,13 @@
 }
 
 .company-logo {
-    position: relative;
+    position: fixed;
+        top: 2%;
+        left: 12%;
+    /* position: relative;
     width: 100px;
     top: 70px;
-    right: 24vw;
+    right: 24vw; */
 }
 /* END of Left side part */
 
@@ -228,14 +231,11 @@
     }
 
     .company-logo {
-        /* position: fixed; */
-        /* border: red solid; */
-        margin-left: 22em;
-        /* width: 2vw; */
-        right: 155vw;
-        top: -19em;
+        position: fixed;
+        top: 2%;
+        left: 8%;
     }
-    .company-logo-image{
+    .company-logo-image {
         width: 60%;
     }
     .left-part-image {
@@ -302,10 +302,10 @@
         font-size: 1em;
         font-weight: 200px;
         margin-bottom: 50px;
-        margin: 0;        
+        margin: 0;
     }
     .button-check-package {
-        justify-self: center;        
+        justify-self: center;
     }
 
     .bottom-part {
@@ -338,7 +338,7 @@
         width: 15em;
         padding-left: 40px;
     }
-    #quote{
+    #quote {
         padding-left: 20px;
     }
     .link-line {
@@ -348,6 +348,6 @@
         height: 204px;
         width: 5px;
         top: -190px;
-        left: 53px;        
+        left: 53px;
     }
 }
