@@ -260,13 +260,13 @@
     .crea {
         position: relative;
         color: #ffff;
-        font-size: 3em;
+        font-size: 15vw;
         font-family: Merriweather;
         font-weight: 700;
         text-shadow: 0 0 2px black;
         margin: 0;
-        /* margin-left: -.4em; */
-        margin-top: -130px;
+        margin-left: 1em;
+        /* margin-top: -130px; */
     }
 
     .tivity {
@@ -275,10 +275,10 @@
         font-family: Merriweather;
         font-weight: 700;
         margin: 0;
-        padding-left: 2rem;
-        font-size: 3em;
-        /* margin-left: 2em;
-        margin-top: -0.5em; */
+        padding-left: 12rem;
+        font-size: 15vw;
+        /* margin-right: 31px; */
+        /* margin-top: -0.5em; */
         color: #333333;
         /* border: solid blue; */
         z-index: 3;
@@ -290,23 +290,22 @@
         font-family: Merriweather;
         font-weight: 700;
         margin: 0;
-        /* margin-left: 20em;
-        margin-top: -2em; */
+        padding-bottom: 20px;
         color: #333333;
     }
 
     .check-package {
         height: 4em;
-        width: 60vw;
+        width: 50vw;
         background-color: #333333;
         color: #ffff;
         font-size: 1em;
         font-weight: 200px;
         margin-bottom: 50px;
-        margin: 0;
+        margin: 0;        
     }
     .button-check-package {
-        justify-self: center;
+        justify-self: center;        
     }
 
     .bottom-part {
@@ -337,6 +336,10 @@
         font-weight: 500;
         /* border: red solid; */
         width: 15em;
+        padding-left: 40px;
+    }
+    #quote{
+        padding-left: 20px;
     }
     .link-line {
         position: relative;
