@@ -48,7 +48,6 @@
 }
 /* Navigation part */
 
-
 .top-menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -78,13 +77,13 @@
     /* width: 100%; */
     /* grid-template-columns: 9fr 1fr; */
     display: flex;
-    
+
     flex-direction: row;
     /* border: red solid; */
     /* height: 300px; */
 }
 
-.ingredient-part{
+.ingredient-part {
     display: flex;
     flex-direction: column;
     margin-top: auto;
@@ -106,7 +105,7 @@
     font-family: Merriweather;
     font-weight: 700;
     text-shadow: 0 0 2px black;
-    /* margin-left: 50px; */
+    margin-left: 50px;
     margin-top: -10px;
 }
 
@@ -166,12 +165,13 @@
 .section-links {
     line-height: 3.5em;
     /* border: solid; */
-    height: 290px;
-    padding-left: 80px;
+    height: 6em;
+    padding-left: 3em;
     padding-top: 50px;
     font-size: 18px;
     text-indent: 2em;
     color: #888888;
+    list-style: none;
 }
 
 .section-link:hover {
@@ -181,11 +181,12 @@
 .link-line {
     position: relative;
     display: block;
-    border-left: 1px black solid;
-    height: 284px;
+    border-left: 1px #888888 solid;
+    height: 320px;
     width: 5px;
     top: -280px;
-    left: -16px;
+    left: 79px;
+    z-index: -1;
 }
 
 #quote {
@@ -231,7 +232,7 @@
         width: 100vw;
         /* height: auto; */
     }
-    .left-part{
+    .left-part {
         width: 100vw;
     }
     .top-menu {
@@ -293,7 +294,6 @@
         font-weight: 200px;
         margin-bottom: 50px;
         margin: 0;
-
     }
     .button-check-package {
         justify-self: center;
@@ -305,18 +305,20 @@
         /* justify-content: center; */
         justify-items: center;
         row-gap: 10em;
-
     }
     .down-arrow {
         display: none;
     }
     .section-links {
         /* display: none; */
+        position: relative;
+        margin-top: 3em;
+        font-size: 12px;
+        left: -40px;
     }
-    .image-2{
+    .image-2 {
         order: -1;
         width: 100vw;
-
     }
     .image-2 > h2 {
         font-size: 1em;
@@ -324,5 +326,14 @@
         font-weight: 500;
         /* border: red solid; */
         width: 15em;
+    }
+    .link-line {
+        position: relative;
+        display: block;
+        border-left: 1px black solid;
+        height: 284px;
+        width: 5px;
+        top: -190px;
+        left: 53px;
     }
 }
