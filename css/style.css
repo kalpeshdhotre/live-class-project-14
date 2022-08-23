@@ -2,7 +2,7 @@
 
 * {
     font-family: poppins;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 /* .image-2 {
@@ -37,6 +37,7 @@
 /* Start OF Right side section */
 .right-part {
     display: grid;
+    width: 100%;
     /* border: solid; */
 }
 
