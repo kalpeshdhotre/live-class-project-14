@@ -231,6 +231,9 @@
         width: 100vw;
         /* height: auto; */
     }
+    .left-part{
+        width: 100vw;
+    }
     .top-menu {
         display: none;
     }
@@ -282,14 +285,15 @@
     }
 
     .check-package {
-        height: 5em;
-        width: 20em;
+        height: 4em;
+        width: 60vw;
         background-color: #333333;
         color: #ffff;
-        font-size: 15px;
-        font-weight: 400px;
+        font-size: 1em;
+        font-weight: 200px;
         margin-bottom: 50px;
         margin: 0;
+
     }
     .button-check-package {
         justify-self: center;
@@ -313,5 +317,12 @@
         order: -1;
         width: 100vw;
 
+    }
+    .image-2 > h2 {
+        font-size: 1em;
+        font-family: poppins;
+        font-weight: 500;
+        /* border: red solid; */
+        width: 15em;
     }
 }
