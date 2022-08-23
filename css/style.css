@@ -5,10 +5,6 @@
     /* border: 1px solid; */
 }
 
-/* .image-2 {
-    width: 200px;
-} */
-
 .container {
     /* display: grid;
     grid-template-columns: 600px 2fr; */
@@ -17,29 +13,41 @@
     max-width: 1600px;
     box-shadow: 0px 10px 14px -7px #505050;
     margin: auto;
-    height: 100vh;
+    height: auto;
+    /* height: 100vh; */
 }
 
 /* START Of Left side part */
+.left-part {
+    width: 800px;
+    /* display: block; */
+    /* object-fit: contain; */
+}
 .left-part-image {
+    /* width: 100%; */
+    /* height: 90vh; */
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .company-logo {
     position: relative;
     width: 100px;
     top: 70px;
-    right: 28vw;
+    right: 24vw;
 }
 /* END of Left side part */
 
 /* Start OF Right side section */
 .right-part {
-    display: grid;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    /* width: 100%; */
     /* border: solid; */
 }
+/* Navigation part */
+
 
 .top-menu {
     display: grid;
@@ -64,15 +72,31 @@
     margin-left: 20px;
 }
 
+/* Left section start here */
 .creativity-part {
-    display: grid;
-    grid-template-columns: 9fr 1fr;
-    border: red solid;
-    height: 300px;
+    /* display: grid; */
+    /* width: 100%; */
+    /* grid-template-columns: 9fr 1fr; */
+    display: flex;
+    
+    flex-direction: row;
+    /* border: red solid; */
+    /* height: 300px; */
 }
 
+.ingredient-part{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: auto;
+}
 .social-media-logo {
-    display: grid;
+    margin-left: auto;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    flex-basis: fit-conte;
 }
 
 .crea {
@@ -82,7 +106,7 @@
     font-family: Merriweather;
     font-weight: 700;
     text-shadow: 0 0 2px black;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: -10px;
 }
 
@@ -91,8 +115,8 @@
     font-size: 100px;
     font-family: Merriweather;
     font-weight: 700;
-    margin-left: -700px;
-    margin-top: 90px;
+    margin-left: 2em;
+    margin-top: -90px;
     color: #333333;
 }
 
@@ -101,8 +125,8 @@
     font-size: 20px;
     font-family: Merriweather;
     font-weight: 700;
-    margin-left: 520px;
-    margin-top: -130px;
+    /* margin-left: 520px; */
+    margin-top: 9em;
     color: #333333;
 }
 
@@ -112,7 +136,7 @@
     height: 200px;
     align-items: center;
     justify-items: center;
-    top: -230px;
+    /* top: -230px; */
 }
 
 /* .button-check-package{
@@ -120,22 +144,23 @@
 } */
 
 .check-package {
-    height: 60px;
-    width: 250px;
+    height: 4em;
+    width: 18em;
     background-color: #333333;
     color: #ffff;
     /* margin-left: auto;
     margin-right: 0%; */
-    float: right;
-    margin-right: 30px;
-    font-size: 15px;
+    /* float: right; */
+    margin-right: -330px;
+    font-size: 1em;
     font-weight: 400px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .bottom-part {
     display: grid;
     grid-template-columns: 2fr 2fr 0.5fr;
+    width: 100%;
 }
 
 .section-links {
@@ -197,14 +222,14 @@
     }
 
     .company-logo {
-        position: fixed;
+        /* position: fixed; */
         width: 100px;
-        right: 75vw;
+        right: 155vw;
         top: 2em;
     }
     .left-part-image {
-        width: 100%;
-        height: auto;
+        width: 100vw;
+        /* height: auto; */
     }
     .top-menu {
         display: none;
@@ -221,12 +246,12 @@
     .crea {
         position: relative;
         color: #ffff;
-        font-size: 5em;
+        font-size: 3em;
         font-family: Merriweather;
         font-weight: 700;
         text-shadow: 0 0 2px black;
         margin: 0;
-                /* margin-left: -.4em; */
+        /* margin-left: -.4em; */
         margin-top: -130px;
     }
 
@@ -237,11 +262,11 @@
         font-weight: 700;
         margin: 0;
         padding-left: 2rem;
-
+        font-size: 3em;
         /* margin-left: 2em;
         margin-top: -0.5em; */
         color: #333333;
-        border: solid blue;
+        /* border: solid blue; */
         z-index: 3;
     }
 
@@ -270,14 +295,23 @@
         justify-self: center;
     }
 
-    .bottom-part{
-        border: red solid;
+    .bottom-part {
+        /* border: red solid; */
         grid-template-columns: 1fr;
+        /* justify-content: center; */
+        justify-items: center;
+        row-gap: 10em;
+
     }
     .down-arrow {
         display: none;
     }
     .section-links {
         /* display: none; */
+    }
+    .image-2{
+        order: -1;
+        width: 100vw;
+
     }
 }
