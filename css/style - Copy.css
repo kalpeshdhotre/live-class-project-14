@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: poppins;
+}
+
+.image-2{
+    width: 200px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 600px 2fr;
+    width: 1600px;
+    box-shadow: 0px 10px 14px -7px #505050;
+    margin: auto;
+    height: 100vh;    
+}
+
+/* START Of right side part */
+
+.left-part{
+    display: block;
+    background-image: url(../images/image-1.jpg);
+    background-size: cover;
+    /* width: 33%;
+    height: 100%; */    
+}
+
+.company-logo{
+    position: relative;
+    width: 100px;
+    top: 70px;
+    left: 100px;
+}
+
+/* END of right side part */
+
+/* Start OF Left side section */
+
+.right-part{
+    display: grid;
+    /* border: solid; */
+}
+
+.top-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+.top-nav-menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border: solid; */
+    width: 500px;
+    height: 75px;    
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.line{
+    display: block;
+    border-bottom: 1px #505050 solid;
+    width: 400px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.creativity-part{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    /* border: red solid; */
+    height: 300px;
+}
+
+.social-media-logo{
+    display: grid;
+}
+
+.crea{
+    position: relative;
+    color: #ffff;
+    font-size: 100px;
+    font-family: Merriweather;
+    font-weight: 700;
+    text-shadow: 0 0 2px black;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.tivity{
+    position: relative;    
+    font-size: 100px;
+    font-family: Merriweather;
+    font-weight: 700;    
+    margin-left: -700px;
+    margin-top: 90px;
+    color: #333333;
+}
+
+.ingredient{
+    position: relative;    
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 700;    
+    margin-left: 520px;
+    margin-top: -130px;
+    color: #333333;
+}
+
+.social-media-logo{
+    position: relative;
+    /* border: solid; */
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    top: -230px;
+}
+
+/* .button-check-package{
+    border: solid;
+} */
+
+.check-package{
+    height: 60px;
+    width: 250px;
+    background-color: #333333;
+    color: #ffff;
+    /* margin-left: auto;
+    margin-right: 0%; */
+    float: right;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-bottom: 50px;
+}
+
+.bottom-part{
+    display: grid;
+    grid-template-columns: 2fr 2fr 0.5fr;
+}
+
+
+.section-links{
+    line-height: 3.5em;
+    /* border: solid; */
+    height: 290px;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: 18px;
+    text-indent: 2em;
+    color: #888888;
+}
+
+.section-link:hover{
+    color: black;
+    font-weight: 500;
+}
+.link-line{
+    position: relative;
+    display: block;
+    border-left: 1px black solid;
+    height: 284px;
+    width: 5px;
+    top: -280px;
+    left: -16px;
+}
+
+#quote{
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.image-2>h2{
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 500;
+    /* border: red solid; */
+    width: 350px;
+}
+
+.image-2{
+    width: 400px;
+    height: 195px;
+    object-fit: cover;
+}
+
+.arrow{
+    position: relative;
+    width: 40px;
+    height: 140px;
+    top: 200px;
+    left: 30px;
+}
