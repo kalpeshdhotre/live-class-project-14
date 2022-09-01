@@ -31,9 +31,9 @@
 }
 
 .company-logo {
-    position: fixed;
-        top: 2%;
-        left: 12%;
+    position: relative;
+        top: 15%;
+        left: -62%;
     /* position: relative;
     width: 100px;
     top: 70px;
@@ -98,7 +98,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 2em;
-    flex-basis: fit-conte;
+    /* flex-basis: ; */
 }
 
 .crea {
